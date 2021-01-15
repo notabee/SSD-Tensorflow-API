@@ -1,0 +1,4 @@
+For data preparation, we have 2 folders with cropped square images (one for training and one for evaluation). We also have 2 dataframes with information about packs places on each image. We then convert everything to train.record and eval.record files that could be consumed by Tensorflow Object Detection trainer.
+The detection network used is ssd_resnet50_v1_fpn_640x640.
+
+Parameters are mentioned in the config file.
